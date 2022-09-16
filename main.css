@@ -3,9 +3,16 @@
 }
 
 #bannerSection{
+    background-color: #00ffff;
+    padding: 5px;
+}
+
+#bannerDiv{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #FFFDD0;
+    padding: 0 200px;
+    border-radius: 40px;
  
 }
 
@@ -13,10 +20,9 @@
 .info{
     justify-content: center;
     align-items: center;
-    border: 1px solid blue;
     display: flex;
     flex-direction: column;
-    
+    margin: 10px;
 }
 
 .mainInfo{
@@ -27,6 +33,7 @@
 
 .mainInfo h3{
     font-size: 25px;
+    text-decoration: underline;
 }
 
 .mainInfo h2{
@@ -34,32 +41,40 @@
 }
 
 .storeButton{
-    border: 1px solid red;
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-top: 10px;
     
 }
 
 .storeButton button{
+
     justify-content: center;
     align-items: center;
     font-weight: 900;
-    font-size: 18px;
-    border: 1px solid white;
+    border: 2px solid #111;
+    border-radius: 5px;
+    background-color: #FFF;
+    padding: 10px 20px;cursor: pointer;
+    transition: 0.2s;
 
+}
+
+.storeButton button:hover{
+    background-color: #00ffff;
+    transform: rotate(-20deg);
 }
 
 .image{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    border: solid 1px red;
     margin-right: 45px;
+    margin: 10px;
 }
 
 
 .mainImage{
-    width: 400px;
-    border: 1px solid red;
+    width: 450px;
 }
