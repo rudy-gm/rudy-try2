@@ -34,6 +34,10 @@
 .mainInfo h3{
     font-size: 25px;
     text-decoration: underline;
+    color: #00ffff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .mainInfo h2{
